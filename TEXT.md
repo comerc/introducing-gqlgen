@@ -372,3 +372,11 @@ func (ec *executionContext) _Brief(ctx context.Context, sel ast.SelectionSet, ob
 - Привязка gRPC/Twirp/Thrift на основе схем - возможность привязать внешние сервисы к вашему графу так же просто, как `@grpc(service: "http://service", method: "Foobar")`.
 
 Мы считаем, что gqlgen - это лучший способ создать GraphQL-сервер на Go и, возможно, даже на любом другом языке. На данный момент мы уже добавили множество функций, но многое еще впереди, и мы надеемся, что вы присоединитесь к нам на [GitHub](http://github.com/99designs/gqlgen) или [Gitter](https://gitter.im/gqlgen/Lobby) и присоединитесь к приключениям.
+
+Что ещё почитать/посмотреть по теме:
+
+- [GraphQL и Golang](https://habr.com/ru/companies/ruvds/articles/444346/)
+- [GraphQL и GO: простой способ бросить REST](https://www.youtube.com/watch?v=tv8muwgj-Y4)
+- [gqlgen: GraphQL для строгих](https://www.youtube.com/watch?v=UP4w70VXKt4)
+- [Как использовать GraphQL Federation для инкрементальной миграции с монолита (Python) на микросервисы (Go)](https://habr.com/ru/companies/macloud/articles/559352/)
+- [Развитие инфраструктуры Погоды. Доклад Яндекса (как мы эволюционировали из REST в GraphQL и почему это сделало жизнь разработчиков фронтенда и приложений мягкой и шелковистой)](https://habr.com/ru/companies/yandex/articles/565234/)
